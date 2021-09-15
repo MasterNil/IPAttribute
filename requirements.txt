@@ -1,1 +1,2 @@
 virustotal-api==1.1.11
+tweepy==3.10.0

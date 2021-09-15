@@ -21,6 +21,12 @@ def run():
         json.dump(r_json,open("Data/zoomeye/%s.json"%ip,"w+"))
         time.sleep(15)
 
+def processData():
+    infile = "Data/zoomeye/36.112.128.85.json"
+    d = json.load(open(infile))
+    print(d.keys())
+
 if __name__=="__main__":
-    run()
+    # run()
+    processData()
     
