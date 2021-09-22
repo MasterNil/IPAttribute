@@ -7,13 +7,15 @@ import json
 import time
 import os
 
+base_dir = "./twitter"
+
+
 def checkAndCreateDir(dirname):
     if not os.path.exists(dirname):
         os.mkdir(dirname)
 
 def getTwitterOutdir():
     time_key = str(int(time.time()/3600))
-    base_dir = "./twitter"
     checkAndCreateDir(base_dir)
     out_dir = os.path.join(base_dir,time_key)
     checkAndCreateDir(out_dir)
