@@ -1,0 +1,1 @@
+scp -r GkThreat root@ctos3:/home/work_space/

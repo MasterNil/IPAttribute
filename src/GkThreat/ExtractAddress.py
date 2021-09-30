@@ -35,7 +35,7 @@ def run():
     for r_list in result_list:
         result += r_list
     df = pd.DataFrame(result).drop_duplicates()
-    df.to_csv("tmp/threat_twitter.csv")
+    df.to_csv("tmp/threat_twitter.csv",index=False)
 
 if __name__=="__main__":
     run()

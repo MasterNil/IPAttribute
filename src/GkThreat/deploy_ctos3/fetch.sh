@@ -1,0 +1,1 @@
+scp root@ctos3:/home/work_space/tmp/*.csv ./tmp/
