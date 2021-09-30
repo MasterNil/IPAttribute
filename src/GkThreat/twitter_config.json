@@ -1,11 +1,12 @@
 {
     "content":[
         "malware","ransomware","botnet","spyware","iocs","virustotal.com",
-        "Oceanlotus","BlackMatter","Water Basilisk","Turla","FamousSparrow","RedDrip7"
+        "Oceanlotus","BlackMatter","Water Basilisk","Turla","FamousSparrow","RedDrip7",
+        "PoshC2","BazarLoader","Covenant"
 
     ],
     "user":[
-        "ShadowChasing1","Cyber_O51NT","vxunderground","0xffff0800","blackorbird"
+        "ShadowChasing1","Cyber_O51NT","vxunderground","0xffff0800","blackorbird","TheDFIRReport"
     ]
 
 }
